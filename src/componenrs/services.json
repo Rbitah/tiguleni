@@ -1,0 +1,41 @@
+[
+    {
+      "name": "Gardening",
+      "icon": "🌿"
+    },
+    {
+      "name": "Cleaning",
+      "icon": "🧹"
+    },
+    {
+      "name": "Catering",
+      "icon": "🍽️"
+    },
+    {
+      "name": "Photography",
+      "icon": "📷"
+    },
+    {
+      "name": "Health",
+      "icon": "🩺"
+    },
+    {
+      "name": "Mechanic",
+      "icon": "🔧"
+    },
+    {
+      "name": "Fitness",
+      "icon": "💪"
+    },{
+        "name":"Security",
+        "icon":"🛡️"
+    },
+    {
+      "name": "Electrician",
+      "icon": "🔌"
+    },{
+      "name": "Saloon",
+      "icon": "💄"
+    }
+  ]
+  
