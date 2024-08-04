@@ -1,11 +1,11 @@
 
-import LandngComplete from './LandngComplete.jpg';
+import SeecondBanner from './SecondBanner.png';
 
-function LandingBanner() {
+function SecondBanner() {
   return (
     <div className='mt-10  flex justify-center'>
       <img 
-        src={LandngComplete} 
+        src={SeecondBanner} 
         alt="Landing Banner" 
         className="w-full h-auto max-w-[1138px] object-cover"
       />
@@ -13,4 +13,4 @@ function LandingBanner() {
   );
 }
 
-export default LandingBanner;
+export default SecondBanner;
