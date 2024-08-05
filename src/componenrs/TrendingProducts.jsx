@@ -4,7 +4,7 @@ import products from "../Products";
 
 function TrendingProducts() {
   return (
-    <div className=" mt-[100px]">
+    <div className=" justify-center mt-[100px]">
       <div className=" ml-[75px]"><div className="flex justify-between items-center mb-4">
         <div className="flex space-x-4">
           <div className="bg-red-500  rounded-md h-[50px] w-[27px]"></div>
@@ -12,7 +12,7 @@ function TrendingProducts() {
         </div>
       </div>
       <h3 className="text-2xl font-bold mb-6">Recently Added</h3></div>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8'>
+      <div className=' ml-[75px] grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-x-8'>
       {products.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}
