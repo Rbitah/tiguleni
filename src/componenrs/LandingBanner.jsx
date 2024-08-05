@@ -1,5 +1,6 @@
 
 import LandngComplete from './LandngComplete.jpg';
+import LandngCompleteM from './LandngCompleteM.jpg';
 
 function LandingBanner() {
   return (
@@ -7,7 +8,12 @@ function LandingBanner() {
       <img 
         src={LandngComplete} 
         alt="Landing Banner" 
-        className="w-full h-auto max-w-[1138px] object-cover"
+        className=" hidden lg:block w-full h-auto max-w-[1138px] object-cover"
+      />
+      <img 
+        src={LandngCompleteM} 
+        alt="Landing Banner" 
+        className="w-full lg:hidden  md:block h-auto max-w-[1138px] object-cover"
       />
     </div>
   );
