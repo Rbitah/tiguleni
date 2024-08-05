@@ -19,7 +19,7 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <div className="py-4 ml-10 space-x-4 border-0 flex flex-col justify-center relative">
+    <div className="px-0 mx-0 py-4 ml-10 space-x-4 border-0 flex flex-col justify-center relative">
       <div className="relative rounded-md h-[270px] bg-gray-200 w-[270px]">
         <img src={product.image} alt={product.name} className="h-full w-full object-contain" />
         <button className="absolute top-2 right-2 p-2 rounded-full hover:bg-gray-300">

@@ -3,6 +3,7 @@ import Navibar from "./componenrs/Navibar";
 import NewProducts from "./componenrs/NewProducts";
 import ServicesByCategory from "./componenrs/ServicesByCategory";
 import SecondBanner from "./componenrs/SecondBanner"
+import TrendingProducts from "./componenrs/TrendingProducts";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NewProducts/>
       <ServicesByCategory/>
       <SecondBanner/>
+      <TrendingProducts/>
     </>
   );
 }
